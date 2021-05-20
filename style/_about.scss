@@ -1,0 +1,29 @@
+.about {
+  .container {
+    padding-top: 50px;
+    padding-bottom: 150px;
+  }
+
+  .text {
+    @include media-breakpoint-up(md) {
+      padding-top: 50px;
+      margin-left: -100px;
+    }
+  }
+  .header {
+    padding-top: 100px;
+    h4 {
+      margin-top: 0px;
+    }
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 46px;
+    color: #000000;
+  }
+
+  .bg-grey {
+    background: #ebf5ff;
+  }
+}
